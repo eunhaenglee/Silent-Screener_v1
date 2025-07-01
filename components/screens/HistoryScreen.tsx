@@ -1,7 +1,6 @@
 // components/screens/HistoryScreen.tsx
 import React, { useState } from 'react';
 import FeedbackCard from '../ui/FeedbackCard'; // 질문별 카드
-import SummaryCard from '../ui/Card';           // 전체 요약 카드 (간단한 스타일링용)
 
 type HistoryItem = {
   timestamp: string;
